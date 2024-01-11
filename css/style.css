@@ -38,7 +38,7 @@ a{
 }
 .navbar_top .right ul{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     
 }
@@ -59,6 +59,130 @@ a{
     padding: 10px 13px;
     border-radius: 8px;
     color: #FFF;
+    
+}
+/* header part end */
 
+/* main part main section start */
+#main_heading{
+    margin: 2px;
 }
 
+.background{
+    background: url(../images/bg.png) no-repeat, center;
+    background-size: cover;
+    padding: 200px 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.main .main_title h1{
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 700;
+    color: #3A4256;
+}
+
+.main .main_title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #3A4256;
+}
+.main .main_title .btn_main_heading{
+    background-image: linear-gradient(to right,rgb(25, 211, 174), rgba(15, 206, 236, 0.829));
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main .main_image img{
+    width: 100%;
+}
+/* main part main section end */
+
+/* opening Hour part start */
+.open_hour{
+    margin: 10px 0;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.Opening_hour{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 450px;
+    background-image: linear-gradient(to right,rgb(25, 211, 174), rgba(15, 206, 236, 0.829));
+    padding: 52px 32px 65px 32px;
+    border-radius: 8px;
+}
+.Opening_hour_02{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 450px;
+    /* background-image: linear-gradient(to right,rgb(25, 211, 174), rgba(15, 206, 236, 0.829)); */
+    padding: 52px 32px 65px 32px;
+    border-radius: 8px;
+    background-color: #3A4256;
+}
+.Opening_hour_02 .text h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+}
+.Opening_hour_02 .text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.Opening_hour .text h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+}
+.Opening_hour .text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+}
+
+/* opening Hour part end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar_top, .right ul{
+        flex-direction: column;
+    }
+}
